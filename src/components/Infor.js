@@ -8,6 +8,7 @@ export default function Infor() {
       <img className="profile-pic"  src={RefPhoto} alt=""  width="45px"/>
       <h2>Ref Mags</h2>
       <h3>Fullstack developer</h3>
+      <h3>Fullstack developer</h3>
       <p>email</p>
       
     </div>
