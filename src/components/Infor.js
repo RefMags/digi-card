@@ -1,14 +1,15 @@
 import React from "react"
 import ReactDOM  from "react-dom"
 import RefPhoto from "../images/ref-photo.jpg"
+import EmailIcon from "../images/email.png"
 
 export default function Infor() {
   return (
     <div>
       <img className="profile-pic"  src={RefPhoto} alt="" />
-      <h2>Ref Mags</h2>
+      <h2>Refilwe Mags</h2>
       <h3>Fullstack developer</h3>
-      <p>email</p>
+      <p>website.com</p>
     </div>
   )
 }
