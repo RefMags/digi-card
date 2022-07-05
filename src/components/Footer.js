@@ -6,7 +6,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 export default function Footer() {
   return (
-    <div>
+    <footer>
       <a href="">
         <span>
           <ion-icon name="logo-github"></ion-icon>
@@ -25,7 +25,9 @@ export default function Footer() {
         </span>
         <span>Twitter</span>
       </a>
-    </div>
+
+    </footer>
+    
   )
 }
 

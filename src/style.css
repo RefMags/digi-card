@@ -48,3 +48,13 @@ p {
   font-size: 18px;
   line-height: 150%;
 }
+
+footer {
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
