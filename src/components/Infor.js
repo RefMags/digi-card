@@ -1,16 +1,18 @@
 import React from "react"
 import ReactDOM  from "react-dom"
 import RefPhoto from "../images/ref-photo.jpg"
-import EmailIcon from "../images/email.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Infor() {
   return (
     <div>
       <img className="profile-pic"  src={RefPhoto} alt="" />
-      <h2>Refilwe Mags</h2>
-      <h3>Developer</h3>
-      <p>website.com</p>
-      <button></button>
+      <div>
+        <h1>Refilwe Magwaneng</h1>
+        <h4>Developer/Researcher</h4>
+        <button className="email"> <FontAwesomeIcon icon={faEnvelope} className="envelope"></FontAwesomeIcon>Email</button>
+      </div> 
     </div>
   )
 }

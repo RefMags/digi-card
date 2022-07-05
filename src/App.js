@@ -11,7 +11,6 @@ export default function App() {
     <div>
       < Infor />
       < About />
-      < Interest />
       < Footer />
     </div>
   )

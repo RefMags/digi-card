@@ -23,19 +23,19 @@ body {
   margin-right: auto;
 }
 
-h2, h3, p {
+h1, h4, p {
   text-align: center;
   color: #FFFFFF;
 }
 
-h2 {
+h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 30px;
 }
 
-h3 {
+h4 {
   color: #F3BF99;
   font-weight: 400;
   font-size: 20px;
