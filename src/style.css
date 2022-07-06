@@ -17,10 +17,12 @@ body {
 }
 
 .profile-pic {
-  width: 320px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+
+  border-radius: 10px 10px 0px 0px;
 }
 
 h1, h4, p {
@@ -49,12 +51,61 @@ p {
   line-height: 150%;
 }
 
+.profile {
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+.main {
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+
+  background: #1A1B21;
+}
+
+.main--title {
+  margin: 0;
+  padding-top: 169px;
+  margin-left: 14px;
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+/* or 24px */
+
+
+  color: #F5F5F5;
+}
+
+.main--content{
+  margin-bottom: 3px;
+  padding-top: 0x;
+  margin-left: 14px;
+  margin-right: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16.24px;
+  line-height: 150%;
+  justify-content: center;
+  color: #DCDCDC;
+}
+
 footer {
   width: 317px;
   height: 64px;
   left: 116px;
   top: 760px;
-  
+    
   background: #161619;
   border-radius: 0px 0px 10px 10px;
-}
+  }

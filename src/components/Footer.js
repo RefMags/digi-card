@@ -1,17 +1,12 @@
 import React from "react"
-import ReactDOM  from "react-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+// import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 export default function Footer() {
   return (
     <footer>
       <a href="">
-        <span>
-          <ion-icon name="logo-github"></ion-icon>
-        </span>
-        <span>Github</span>
       </a>
       <a href="">
         <span>

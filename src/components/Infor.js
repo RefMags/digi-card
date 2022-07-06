@@ -1,12 +1,11 @@
 import React from "react"
-import ReactDOM  from "react-dom"
 import RefPhoto from "../images/ref-photo.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Infor() {
   return (
-    <div>
+    <div className="profile">
       <img className="profile-pic"  src={RefPhoto} alt="" />
       <div>
         <h1>Refilwe Magwaneng</h1>
