@@ -17,6 +17,7 @@ body {
 }
 
 .profile-pic {
+  object-fit: cover;
   width: 317px;
   height: 317px;
   left: 116px;

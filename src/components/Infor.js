@@ -2,6 +2,7 @@ import React from "react"
 import RefPhoto from "../images/ref-photo.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons';
 
 export default function Infor() {
   return (
